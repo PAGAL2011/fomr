@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 85%;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+    font-size: 26px;
+}
+
+.header-wrpapper {
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heade-link {
+    color: rgba(31, 21, 52, 1);
+    opacity: 0.6;
+    transition: 500ms all ease;
+}
+
+.heade-link:hover {
+    color: rgba(31, 21, 52, 1);
+    opacity: 1;
+    transition: 100ms ease all;
+}
+
+.heade-link:active {
+    color: rgb(255, 106, 0);
+    opacity: 1;
+    transition: 100ms ease all;
+}
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-text {
+    width: 440px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h1 {
+
+        font-family: Mulish;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 56px;
+        letter-spacing: 0%;
+
+    }
+
+    p {
+        font-family: Mulish;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 32px;
+        opacity: 0.6;
+    }
+}
+
+.all{
+    text-align: center;
+    opacity: 0.6;
+   margin-top: 30px;
+} 
+.ad{
+    text-align: center;
+    color: black;
+}
+.btn {
+    width: 197px;
+    padding: 14px 0;
+    border: none;
+    border-radius: 20px;
+    background: rgba(69, 143, 246, 1);
+    color: #fff;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21.34px;
+    letter-spacing: 0%;
+
+}
+.aq{
+    width: 1180;
+    height: 801;
+    top: 951.77px;
+    left: 143px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+   justify-content: space-around;
+  
+}
+.box{
+    width: 380px;
+    height: 380px;
+    background-color: rgb(150, 148, 148);
+    border-radius: 50px ;
+}
+.boz{
+    width: 380px;
+    height: 380px; 
+    background-color: rgb(80, 80, 247);
+    border-radius: 50px ;
+}
+.ax{
+    color: #fff;
+}
+.ac{
+    color: #fff;
+    margin-top: 240px;
+}
+.alk{
+    text-align: center;
+    border: 2px solid aqua;
+    border-radius: 25px;
+    width: 200px;
+    text-align: center;
+    height: 55px;
+    text-align: center;
+    margin-left: 500px;
+    padding: 5px;
+}
